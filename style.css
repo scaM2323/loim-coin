@@ -1,0 +1,137 @@
+body {
+  background-image: url(images/098.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6e80af;
+  color: #ffffff;
+  padding: 10px 5%;
+}
+
+#benefits{
+  padding: 10px 5%;
+  text-align: center;
+}
+
+#benefits>*{
+  display: inline-block;
+  width: 450px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post{
+  padding: 10px 5%;
+  text-align: center;
+}
+
+.post>*{
+  display: inline-block;
+  width: 450px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+nav ul li {
+  display: inline;
+}
+
+header a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.left{
+  background-color: rgb(138, 138, 138);
+  display:flex;
+  flex-wrap: wrap;
+
+.right{
+  background-color: rgb(153, 153, 153);
+  display:flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+}
+#desire>img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+a{
+  text-decoration: none;
+}
+
+.razryv{
+  height: 50px;
+}
+
+.io{
+  padding: 10px 5%;
+}
+
+#techniques{
+  padding: 10px 5%;
+}
+
+#techniques>*{
+  font-size: 30px;
+}
+
+#equipment>*{
+  font-size: 30px;
+}
+
+#equipment{
+  padding: 10px 5%;
+}
+
+#competitions{
+  padding: 10px 5%;
+}
+
+#competitions>*{
+  font-size: 30px;
+}
+
+#desire{
+  padding: 10px 5%;
+}
+
+
+#desire>*{
+  font-size: 30px;
+}
